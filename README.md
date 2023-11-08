@@ -2,6 +2,13 @@
 
 This repository contains a Python implementation of a solver for the Sokoban puzzle game. The solver uses various heuristic functions to efficiently find solutions to the game's puzzles.
 
+<p align="center">
+<img width="644" alt="image" src="https://github.com/SeanBaek111/Sokoban/assets/33170173/eeddf290-707b-4d79-9cd8-3b6f0d410283">
+<img width="572" alt="image" src="https://github.com/SeanBaek111/Sokoban/assets/33170173/311099b0-819e-4e10-90c8-5816a37db2c4">
+</p>
+
+
+
 ## Contents
 
 - `warehouses/`: Directory containing different warehouse puzzle layouts.
