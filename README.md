@@ -42,3 +42,15 @@ print(team_info.my_team())
 # Run the solver on a puzzle
 warehouse_index = 1
 evaluate_warehouse(warehouse_index, False, Heuristics.heur_manhattan_distance)
+```
+
+## Observer Mode
+
+The `observer_mode` feature provides a visual simulation of the solver's progress through each step of the puzzle. This is useful for understanding the decision-making process of the solver and debugging.
+
+To enable observer mode, set the `observer_mode` flag to `True` when initializing the Solver. Here's an example:
+
+```python
+observer_mode = True 
+warehouse_index = 1 
+evaluate_warehouse(warehouse_index, False, Heuristics.heur_manhattan_distance, show_wh, show_taboo_cells,observer_mode)
